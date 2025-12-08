@@ -1,0 +1,27 @@
+Stage 1: Project setup. 
+  - Initialize a Node.js Project 
+  - Install required dependencies.
+  - Initialize an express.js + typescript Project
+  - Setup a basic server & app file.
+  - Connect to a database.
+  - Implement Error handling.
+
+Stage 2: User management
+  - Create a User schema with fields: id, name, profession, age
+  - Create fake seed with faker.js then populate the database
+  - confirm the dataset exist in the database.
+
+Stage 3: Login management 
+  - Create a login schema with fields: id, userId, loginAt.
+  - Implement the following routes: 
+    - POST /api/login/ - Creates a login data
+    - GET /api/login/ - Retrieves all logins in the database.
+  - Test CRUD operations 
+
+Stage 4: Filtering Logic
+  - Extend the GET /api/login/ route to allow Filter logins by a given day using DATE functions.
+  - Test the route
+
+Stage 5: Conclude Project 
+  - Test and Document all Routes.
+  - Move on to the next project.
