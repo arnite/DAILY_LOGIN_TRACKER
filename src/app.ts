@@ -5,8 +5,12 @@ import { rateLimit } from 'express-rate-limit';
 import hpp from 'hpp';
 import compression from 'compression';
 import morgan from 'morgan';
+import { database } from './config/database';
 
 const app: Application = express();
+
+// Connect DB
+database();
 
 // HTTP header security
 app.use(helmet());
